@@ -14,9 +14,9 @@ const App = () => {
 const Header = () => {
   return ( 
     <div>
-      <a href="#s">Home</a>
-      <a href="#s">News</a>
-      <a href="#s">Contact</a>
+      <a href="#sr">Home</a>
+      <a href="#sr">News</a>
+      <a href="#sr">Contact</a>
     </div>
   );
 }
