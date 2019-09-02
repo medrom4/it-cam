@@ -2,31 +2,17 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import Header from './header.js';
+import Technologies from './technologies.js';
+import Footer from './footer';
+
+
 const App = () => {
   return (
     <div>
       <Header />
       <Technologies />
-    </div>    
-  );
-}
-
-const Header = () => {
-  return ( 
-    <div>
-      <a href="#sr">Home</a>
-      <a href="#sr">News</a>
-      <a href="#sr">Contact</a>
-    </div>
-  );
-}
-
-const Technologies = () => {
-  return ( 
-    <div className="App">
-        <ul>
-          <li>com</li>
-        </ul>
+      <Footer />
     </div>
   );
 }
