@@ -5,11 +5,11 @@ import s from './Navbar.module.css';
 
 const Navbar = () => {
     return <nav className={s.nav}>
-        <div><a href="#s">Profile</a></div>
-        <div><a href="#s">Messages</a></div>
-        <div><a href="#s">NewS</a></div>
-        <div><a className={`${s.item} ${s.colp}`} href="#s">Music</a></div><br />
-        <div><a href="#s">Settings</a></div>
+        <div><a href="/profile">Profile</a></div>
+        <div><a href="/dialogs">Messages</a></div>
+        <div><a href="/news">NewS</a></div>
+        <div><a className={`${s.item} ${s.colp}`} href="/music">Music</a></div><br />
+        <div><a href="/settings">Settings</a></div>
     </nav>
 }
 

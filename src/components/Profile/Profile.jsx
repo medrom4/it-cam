@@ -4,7 +4,7 @@ import MyPosts from './MyPosts/MyPosts';
 
 const Profile = () => {
     return (
-        <div className={mod.content}>
+        <div>
             <div>
                 <img src="http://www.unificatie.nl/wp-content/uploads/2015/03/flat_earth1.jpg"></img>
             </div>
