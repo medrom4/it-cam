@@ -1,12 +1,14 @@
 .nav {
   grid-area: nav;
   background-color: #D5DFFF;
+  padding: 20px;
 }
 
-.item {
-  color: black;
+.item a{
+  text-decoration: none;
+  color: rgb(48, 39, 39);
 }
 
-.item.colp {
-  color: gray;
+.item a.activeLink {
+  color: rgb(231, 54, 54);
 }
