@@ -3,13 +3,18 @@ import s from './MyPosts.module.css';
 import Post from './Post/Post';
 
 const MyPosts = () => {
-    return <div>
-        My post
+    return <div className={s.postBlock}>
+        <h3>My post</h3>
         <div>
-            New post
+            <div>
+                <textarea></textarea>
+            </div>
+            <div>
+                <button>Add Post</button>
+            </div>
         </div>
         <div className={s.post}>
-            
+
             <Post message='HI, how are you?' like="44" />
 
             <Post message="It's my first post" like="12" />
