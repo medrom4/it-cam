@@ -29,8 +29,7 @@ import s from './Navbar.module.css';   --- css импорт css
 	<NavLink></NavLink> --- вместо ссылок <a></a>
 	<NavLink to="/profile" activeClassName={s.activeLink}>Профиль</NavLink>
 
-8.	
-
+8.	map - метод массива
 9.
 
 10.
